@@ -81,3 +81,15 @@ Purpose: To identify running services and their versions.
 <img width="1277" height="805" alt="nmap -sv version" src="https://github.com/user-attachments/assets/7b3d11c8-47a1-45af-889c-0588cbc6b878" />
 <img width="827" height="182" alt="-sv version" src="https://github.com/user-attachments/assets/66c2d16b-ea1d-458a-a944-9b82abad19e7" />
 
+# 8. Operating System Detection
+
+Command:
+
+`nmap -O 192.168.157.129`
+
+Purpose: To estimate the target operating system.
+<img width="802" height="682" alt="nmap -o detection" src="https://github.com/user-attachments/assets/7dffcca7-2c12-4163-ad34-55fa3567110f" />
+<img width="691" height="163" alt="-o detection" src="https://github.com/user-attachments/assets/456c10c9-6345-4254-ae98-486215a27415" />
+
+
+
