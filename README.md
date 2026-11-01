@@ -1,4 +1,3 @@
-# Nmap-Network-Scanning
 # Nmap Network Scanning and Enumeration Lab
 
 # 1. Introduction
@@ -34,5 +33,16 @@ The main purpose of this project is to gain practical knowledge of network scann
 Target IP Address: `192.168.157.129
 
 Command:
+ifconfig
+<img width="1713" height="816" alt="metasploitable ifconfig" src="https://github.com/user-attachments/assets/4cef6911-a45d-483a-920f-19b5a248d635" />
 
-`ip addr`
+
+# 5. Host Discovery Scan
+
+Command:
+
+`nmap -sn 192.168.157.129`
+
+Purpose: To check whether the target host is active.
+<img width="1057" height="537" alt="nmap hostdiscovery" src="https://github.com/user-attachments/assets/fb610865-18c0-49d2-9375-60d50a6f8dd3" />
+
