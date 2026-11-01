@@ -78,8 +78,6 @@ Purpose: To identify running services and their versions.
 | Option | Meaning |
 |---|---|
 | `-sV` | Service and version detection |
-<img width="827" height="182" alt="-sv version" src="https://github.com/user-attachments/assets/aaf29187-ed4a-4932-8238-056dc2fb30de" />
-<img width="1277" height="805" alt="nmap -sv version" src="https://github.com/user-attachments/assets/86e53c6a-e63c-4403-b97a-73c586d7dc79" />
-
-
+<img width="1277" height="805" alt="nmap -sv version" src="https://github.com/user-attachments/assets/7b3d11c8-47a1-45af-889c-0588cbc6b878" />
+<img width="827" height="182" alt="-sv version" src="https://github.com/user-attachments/assets/66c2d16b-ea1d-458a-a944-9b82abad19e7" />
 
