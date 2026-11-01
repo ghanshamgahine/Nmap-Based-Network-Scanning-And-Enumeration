@@ -46,3 +46,40 @@ Command:
 Purpose: To check whether the target host is active.
 <img width="1057" height="537" alt="nmap hostdiscovery" src="https://github.com/user-attachments/assets/fb610865-18c0-49d2-9375-60d50a6f8dd3" />
 
+# 6. Port Scanning
+
+Command:
+
+`nmap -p- 192.168.157.129`
+
+Purpose: To scan all TCP ports and identify open ports.
+
+| Port | Common Service |
+|---|---|
+| 21 | FTP |
+| 22 | SSH |
+| 23 | Telnet |
+| 25 | SMTP |
+| 80 | HTTP |
+| 445 | SMB |
+| 3306 | MySQL |
+
+These are common examples; actual results may differ.
+<img width="912" height="813" alt="port scan" src="https://github.com/user-attachments/assets/db15ecf0-35a9-4505-a8ab-e3c271909ddd" />
+
+# 7. Service and Version Detection
+
+Command:
+
+`nmap -sV 192.168.157.129`
+
+Purpose: To identify running services and their versions.
+
+| Option | Meaning |
+|---|---|
+| `-sV` | Service and version detection |
+<img width="827" height="182" alt="-sv version" src="https://github.com/user-attachments/assets/aaf29187-ed4a-4932-8238-056dc2fb30de" />
+<img width="1277" height="805" alt="nmap -sv version" src="https://github.com/user-attachments/assets/86e53c6a-e63c-4403-b97a-73c586d7dc79" />
+
+
+
